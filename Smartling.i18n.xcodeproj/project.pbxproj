@@ -33,6 +33,7 @@
 		C4F6A0C916F318910058DFDA /* floatvalue.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6A0C616F318910058DFDA /* floatvalue.m */; };
 		C4F6A0CA16F318910058DFDA /* NSBundle+Smartling_i18n.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6A0C716F318910058DFDA /* NSBundle+Smartling_i18n.m */; };
 		C4F6A0CB16F318910058DFDA /* pluralfom.c in Sources */ = {isa = PBXBuildFile; fileRef = C4F6A0C816F318910058DFDA /* pluralfom.c */; };
+		ED98D5FA1ED5C3AC00DC04C3 /* Smartling_i18n.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98D5F81ED5C3A000DC04C3 /* Smartling_i18n.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C4F6A0C616F318910058DFDA /* floatvalue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = floatvalue.m; sourceTree = "<group>"; };
 		C4F6A0C716F318910058DFDA /* NSBundle+Smartling_i18n.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Smartling_i18n.m"; sourceTree = "<group>"; };
 		C4F6A0C816F318910058DFDA /* pluralfom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pluralfom.c; sourceTree = "<group>"; };
+		ED98D5F81ED5C3A000DC04C3 /* Smartling_i18n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smartling_i18n.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		C4F6A0B516F3100B0058DFDA /* Smartling.i18n */ = {
 			isa = PBXGroup;
 			children = (
+				ED98D5F81ED5C3A000DC04C3 /* Smartling_i18n.swift */,
 				C4F6A0B816F3100B0058DFDA /* SLLocalization.h */,
 				C4F6A0C616F318910058DFDA /* floatvalue.m */,
 				C4F6A0C716F318910058DFDA /* NSBundle+Smartling_i18n.m */,
@@ -203,6 +206,7 @@
 				TargetAttributes = {
 					C474B8931B061494000CD76D = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -288,6 +292,7 @@
 				C474B8B41B061621000CD76D /* NSBundle+Smartling_i18n.m in Sources */,
 				C474B8B51B061621000CD76D /* pluralfom.c in Sources */,
 				C474B8B31B061621000CD76D /* floatvalue.m in Sources */,
+				ED98D5FA1ED5C3AC00DC04C3 /* Smartling_i18n.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,11 +423,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				STRIP_STYLE = "non-global";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -448,10 +454,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				STRIP_STYLE = "non-global";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
