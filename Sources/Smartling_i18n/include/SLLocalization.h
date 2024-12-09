@@ -1,0 +1,1 @@
+../../../Smartling.i18n/SLLocalization.h

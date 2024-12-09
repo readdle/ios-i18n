@@ -1,0 +1,1 @@
+../../Smartling.i18n/NSBundle+Smartling_i18n.m
