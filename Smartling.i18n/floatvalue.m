@@ -17,6 +17,9 @@
 //
 //  Created by Pavel Ivashkov on 2013-03-06.
 //
+
+#include <Foundation/Foundation.h>
+
 float floatvalue(const void* value, const char* valueType);
 
 float floatvalue(const void* value, const char* valueType)
